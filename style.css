@@ -28,9 +28,9 @@ p,
 li
 {
     color: red;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.5;
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
 }
 
 #img-container
@@ -38,7 +38,7 @@ li
     position: relative;
 }
 
-img
+div > img
 {
     position: absolute;
     top: 0;
