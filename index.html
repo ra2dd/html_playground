@@ -14,7 +14,7 @@
     </head>
     <body>
         <!-- dives used to make elements appear in the new line-->
-        <h1>Learning through mozilla docs</h1>
+        <h1 id="main-heading">Learning through mozilla docs</h1>
 
         <div id="img-container">
             <img alt="Mozilla logo" src="firefox-icon.jpg" />
@@ -28,10 +28,13 @@
         <button>Change user</button>
 
         <br>
-        <h2>Google is a good search engine.</h1>
-        <p>A <a href="https://www.google.com" title="search engine" target="_blank">link</a> to a website </p>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_dark_color_272x92dp.png" alt="logo of google">
+        <h2 id="second-heading">Google is a good search engine.</h1>
+        <p>A <a href="https://www.google.com" title="search engine" target="_blank">go to google</a> now!</p>
         
+        <a href="https://www.google.com" title="another link to google">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_dark_color_272x92dp.png" alt="logo of google">
+        </a>
+
         <h3>Trying out entity refernces - special characters</h3>
         <p>&lt; &gt; &quot; &apos; &amp;</p>
         <p>You define a heading with &lt;h1&gt;</p>
@@ -49,5 +52,35 @@
                 </button>
             </a>
 
+        <a href="#main-heading">Go to main heading.</a>
+        <a href="#second-heading">Go to second heading.</a>
+        <br>
+
+        <p>
+            <a href="https://www.example.com/report.pdf" download="sales-report.pdf">
+                Download the sales report (PDF, 5MB)
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.example.com/video-stream/" target="_blank">
+                Watch the video (stream opens in new tab, HD quality)
+            </a>
+        </p>
+
+        <p>
+            <a href="subpages/index.html" target="_blank">
+                Go to subpages (link opens in new tab)
+            </a>
+        </p>
+        <p>
+
+            <a href="mailto:example@example.com;name3@example.com?cc=name@example.com&bcc=name2@example.com&subject=The%20subject&body=The%20content%20of%20the%20email">
+                Send email to example.com
+            </a>
+        </p>
+
+
+        
     </body>
 </html>
